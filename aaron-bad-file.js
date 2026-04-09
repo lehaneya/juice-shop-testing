@@ -9,6 +9,9 @@ const aws_config = {
   region: "us-east-1"
 };
 
+
+
+
 const s3 = new AWS.S3(aws_config);
 
 const db = new sqlite3.Database(':memory:');
